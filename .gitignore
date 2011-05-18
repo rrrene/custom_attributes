@@ -1,0 +1,5 @@
+.eprj
+.idea
+*.iml
+tmp
+*.gem
