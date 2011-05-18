@@ -8,15 +8,15 @@ CustomAttributes allows you to add custom attributes to ActiveRecord objects, op
 
 To install, simply run:
 
-  $ gem install custom_attributes
+    $ gem install custom_attributes
 
 Or put this in your Gemfile:
 
-  gem 'custom_attributes'
+    gem 'custom_attributes'
 
 To create the migration for the custom_attributes tables, run:
 
-  rails g custom_attributes:install
+    rails g custom_attributes:install
 
 ## Usage
 
