@@ -4,6 +4,20 @@
 
 CustomAttributes allows you to add custom attributes to ActiveRecord objects, optionally scoped by another model (e.g. users or accounts).
 
+## Installation
+
+To install, simply run:
+
+  $ gem install custom_attributes
+
+Or put this in your Gemfile:
+
+  gem 'custom_attributes'
+
+To create the migration for the custom_attributes tables, run:
+
+  rails g custom_attributes:install
+
 ## Usage
 
 Define that a model has custom attributes:
